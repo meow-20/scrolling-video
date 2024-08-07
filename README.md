@@ -18,7 +18,8 @@ Check out the live demo of the project [here](https://scrolling-video-black-cat.
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/me0w-20/scrolling_video.git
+    git clone https://github.com/meow-20/scrolling-video.git
     ```
 ## Usage
 1. Open `index.html` in your web browser to view the project.
+2. Open `main.js` in your editor to view the logic of the project.
