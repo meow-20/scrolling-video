@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrolling Video | Black Cat</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="w-full bg-zinc-900">
+        <div class="parent relative top-0 left-0 w-full h-[700vh] bg-zinc-900">
+            <div class="absolute move sticky top-0 left-0 w-full h-screen">
+                <canvas class="h-screen w-full" id="frame">
+
+                </canvas>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+        <!-- cdns -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
