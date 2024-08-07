@@ -9,10 +9,13 @@ var imgLoaded = 0;
 var imgsArr = [];
 function preloader(){
   for(var i = frames.currentIndex; i <= frames.maxIndex; i++){
-      const imageUrl =`/images/frame_${i.toString().padStart(4,"0")}.jpeg`;
+      const imageUrl =`/images/compressed_images/frame_${i.toString().padStart(4,"0")}.jpg`;
+      // console.log(imageUrl);
       var img = new Image();
       img.src = imageUrl;
       img.onload = () => {
+        // console.log("image loaded");
+        // alert('hey');
           imgLoaded++;
 
           if(imgLoaded === frames.maxIndex){
